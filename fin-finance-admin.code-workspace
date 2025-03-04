@@ -1,0 +1,27 @@
+{
+  "folders": [],
+  "settings": {},
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "WebFinanceAdmin",
+        "type": "go",
+        "request": "launch",
+        "mode": "debug",
+        "program": "src/",
+        "env": {
+          "HTTP": "true",
+          "HTTPS": "true",
+          "LE_CERT": "false",
+          "K8S": "false",
+          "PORT": "8081",
+          // "SHUTDOWN_TIMEOUT": "10"
+        },
+        "args": [],
+        // "args": ["Bonds_test.go"],
+      }
+    ],
+    "compounds": []
+  }
+}
